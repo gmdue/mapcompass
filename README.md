@@ -1,7 +1,7 @@
 # mapscompass
 
 
-# scraping_all_info.py file
+# scraping_all_info.py
 
 This code is a script that uses Selenium and BeautifulSoup to scrape information from Google Maps. It performs a search for a specific place, clicks on the search result, and extracts various details such as name, type of food, rating, address, and reviews of the place. The extracted details are then saved to a JSON file.
 
