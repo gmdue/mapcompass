@@ -21,7 +21,7 @@ import os
 
 browser = webdriver.Firefox()
 
-input_place = 'foggia'    #insert the name of the place you want to search
+input_place = 'place_name'    #insert the name of the place you want to search
 
 link = 'https://www.google.com/maps/place/'+input_place
 browser.get(link)
@@ -72,7 +72,6 @@ def get_element_text(elem, selector):
 
 all = []
 for i in range(3,3+(count*2),2):
-    #print("starting:  " first element/second, ....)
 
     print(f"--- starting element: {int(((i+1)/2)-1)}/{count} ----")
 
